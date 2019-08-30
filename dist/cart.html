@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/cart.js" ></script>
+		<style type="text/css">
+			nav a{color:#999}
+			img{display:block;border:0;}
+			li{list-style: none;}
+			a{text-decoration: none;}
+			.list li{float: left;margin-left:30px}
+			.list a{color:#cecece}
+			.nav03 li{float:left;margin-left:20px}
+			.nav03 a{color:#000;font-size:16px;font-weight: 700;}
+			.nav03 li:hover a{color:red;text-decoration: none;}
+			
+			
+			.list{left:200px}
+			.pic{width:150px;height:150px;}
+			.ck{position: absolute;left:190px;}
+			
+			
+			.footer02 li{float:left;margin-right:10px;width:223px;height:48px;position: relative;}
+			.footer02 li div{width:44px;height:44px;border:2px solid #cecece;border-radius: 50%;text-align: center;line-height: 44px;font-size:20px;font-weight: 800;margin-top:50px;position: relative;}
+			.footer02 li strong{position: absolute;left:50px;top:50px;font-size:20px}
+			.footer02 li span{position: absolute;left:50px;top:80px}
+			.footer03 ul{float: left;margin-right:10px}
+			.footer03 ul li a{color:#898989}
+			.footer04 a{color:#fff}
+			.footer04 .pic01{position: absolute;left:40px;top:35px;}
+			.footer04 .pic02 img{position: absolute;left:300px;top:90px;display: block;width:84px;height:30px;}
+			.footer04 .pic03 img{position: absolute;left:400px;top:90px;display: block;width:80px;height:30px;}
+			.footer04 .pic04 img{position: absolute;left:490px;top:90px;display: block;width:width:28px;height:30px;}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<!--导航条开始-->
+					<nav class="navbar " style="background: #000;height:30px;line-height: 30px;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="font-size: 14px;">网易考拉欢迎您！</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">登陆</a></li>
+        <li><a href="#">免费注册</a></li>
+       	<li><a href="#">手机考拉</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">每日签到</a></li>
+        <li><a href="#">我的账单</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">我的优惠券</a></li>
+            <li><a href="#">我的红包</a></li>
+            <li><a href="#">我的考拉豆</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">账号管理</a></li>
+            <li><a href="#">我的实名认证</a></li>
+            <li><a href="#">我的发票抬头</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">我收藏的商品</a></li>
+			<li><a href="#">我关注的品牌</a></li>
+			<li role="separator" class="divider"></li>
+            <li><a href="#">售后管理</a></li>
+          </ul>
+        </li>
+       
+       
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">客户服务 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">联系客服</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">知识产权中心</a></li>
+            <li><a href="#">规则中心</a></li>
+          </ul>
+       </li>
+       
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">充值中心 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">话费流量</a></li>
+            <li><a href="#">游戏充值</a></li>
+            <li><a href="#">Appstore充值卡</a></li>
+          </ul>
+       </li>
+      
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">消费者权益 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">消费者告知书</a></li>
+            <li><a href="#">消费者投诉公示</a></li>   
+          </ul>
+       </li>
+       
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">收藏本站</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">新浪微博</a></li>
+			<li><a href="#">微信公众号</a></li>
+			<li><a href="#">易信公众号</a></li>
+			<li role="separator" class="divider"></li>
+            <li><a href="#">招商合作</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">考拉招聘</a></li>
+          </ul>
+       </li>
+       
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+				</div>
+			</div>
+			<!--第2行开始-->
+			<div class="row" style="position: relative;">
+			<div class="col-lg-12">
+				<img src="img/logo.png" style="margin-left:200px"/>
+			</div>
+			</div>	
+			<!--第三行开始-->
+			<div class="row">
+				<div class="col-lg-12">
+					<div style="margin:20px 0 20px 200px;">
+						<p>我的购物车</p>
+					</div>
+				</div>
+			</div>
+			<!--中间展示购物车里的内容-->
+			<div class="main" style="margin-left:200px">
+				<input type="checkbox" class="checkAll" />
+				<ul id="list"></ul>
+				<div id="totalPrice">0</div>
+			</div>
+		
+			
+			<!--footer02开始-->
+		 <div class="row">
+		 	<div class="col-lg-12">
+		 		<ul class="footer02" style="position: absolute;left:200px;top:600px;width:1000px;height:147px;border-top:1px solid #cecece;border-bottom:1px solid #cecece;">
+		 			<li>
+		 				<div>正</div>
+		 				<strong>正品承诺</strong>
+		 				<span>正品保障，假一赔十</span>
+		 			</li>
+		 			
+		 			<li>
+		 				<div>低</div>
+		 				<strong>低价保障</strong>
+		 				<span>缩减中间环节 确保低价</span>
+		 			</li>
+		 			
+		 			<li>
+		 				<div>退</div>
+		 				<strong>30天无忧退货</strong>
+		 				<span>国内退货 售后无忧</span>
+		 			</li>
+		 			
+		 			<li>
+		 				<div>邮</div>
+		 				<strong>满88元包邮</strong>
+		 				<span>部分特殊商品除外</span>
+		 			</li>
+		 			
+		 		</ul>
+		 	</div>
+		 </div>
+		 
+		 <!--footer03开始-->
+		 <div class="row">
+		 	<div class="col-lg-2">
+		 		<div style="position: relative;left: 200px;top:800px;width:1000px;height:265px"><img src="img/logo.png"/></div>
+		 	</div>
+		 	<div class="col-lg-10">
+		 		<div style="position: absolute;left:250px;top:800px;"class="footer03">
+		 			<ul>
+		 				<h4>考拉保障</h4>
+		 				<li><a>假一赔十</a></li>
+		 				<li><a>廉政监督</a></li>
+		 			</ul>
+		 			
+		 			<ul>
+		 				<h4>新手指南</h4>
+		 				<li><a>购物流程</a></li>
+		 				<li><a>支付方式</a></li>
+		 				<li><a>通关税费</a></li>
+		 				<li><a>常见问题</a></li>
+		 			</ul>
+		 			
+		 			<ul>
+		 				<h4>售后服务</h4>
+		 				<li><a>售后政策</a></li>
+		 				<li><a>退货流程</a></li>
+		 				<li><a>特色服务</a></li>
+		 				<li><a>联系客服</a></li>
+		 			</ul>
+		 			
+		 			<ul>
+		 				<h4>物流配送</h4>
+		 				<li><a>配送方式</a></li>
+		 				<li><a>配送服务</a></li>
+		 				<li><a>运费标准</a></li>
+		 				<li><a>物流跟踪</a></li>
+		 			</ul>
+		 			
+		 			<ul>
+		 				<h4>关于我们</h4>
+		 				<li><a>联系我们</a></li>
+		 				<li><a>招商合作</a></li>
+		 				<li><a>销售联盟</a></li>
+		 				<li><a>CEO邮箱</a></li>
+		 			</ul>
+		 			
+		 			<ul>
+		 				<img src="img/pic05.png" />
+		 				<li>扫描下载手机版</li>
+		 			</ul>
+		 		</div>
+		 	</div>
+		 </div>
+		 <!--footer04开始-->
+		 <div class="row">
+		 	<div class="col-lg-12">
+		 		<div style="position: absolute;top:800px;width:100%;height:200px;background: #000000;">
+		 			<div style="width:1000px;height:153px;margin:0 auto;margin-top: 24px;text-align: center;line-height:30px;color:#fff;position: relative;" class="footer04">
+		 		<a href="">aboutNetease</a>
+				<span> - </span>
+				<a href="">公司简介</a>
+				<span> - </span>
+				<a href="">联系方法</a>
+				<span> - </span>
+				<a href="">友情链接</a>
+				<span> - </span>
+				<a href="">招聘信息</a>
+				<span> - </span>
+				<a href="">客户服务</a>
+				<span> - </span>
+				<a href="">隐私政策</a>
+				<span> - </span>
+				<a href="">网络营销</a>
+				<span> - </span>
+				<a href="">隐私政策</a>
+				<span> - </span>
+				<a href="">网络营销</a>
+				<span> - </span>
+				<a href="">网易考拉</a>
+				<br />
+				<span>网络文化许可证:浙网文[2019]1372-138号</span>
+				<span>增值电信业务经营许可证：浙B2-20160288</span>
+				<span><a href="">自营经营者信息 </a></span>
+				<span>（浙）网械平台备字[2018]第00007号</span>
+				<br />
+				<a class="pic01"><img src="img/pic01.png"/></a>
+				<a href=""><span>浙公网安备 33010802002216号</span></a>
+				<span>网易公司版权所有©1997-2019</span>
+				<a href=""><span>互联网药品信息服务资格证书编号（浙）-2017-0027</span></a>
+				<span>浙ICP备16011229号-6</span>
+				<br />
+				<a href="" class="pic02"><img src="img/pic02.png"/></a>
+				<a href="" class="pic03"><img src="img/pic03.png"/></a>
+				<a href="" class="pic04"><img src="img/pic04.gif"/></a>
+		 			</div>
+		 		</div>
+		 	</div>
+		 </div>
+		 <!--footer结束-->
+</div><!--最外层container的结束div-->
+<script type="text/javascript">
+	//var cart=new Cart();
+	//cart.showProduct("list","totalPrice","checkAll");
+</script>
+	
+	</body>
+</html>
